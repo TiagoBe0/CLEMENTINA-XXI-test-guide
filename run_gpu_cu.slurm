@@ -9,7 +9,6 @@
 #SBATCH --time=00:30:00
 
 module purge
-module load intel/2023.2.1
 
 module load lammps/2024-Aug-opencl
 
