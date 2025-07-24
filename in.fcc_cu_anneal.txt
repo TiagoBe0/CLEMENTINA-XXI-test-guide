@@ -1,0 +1,29 @@
+
+
+units           metal
+dimension       3
+boundary        p p p
+atom_style      atomic
+
+lattice         fcc 3.615
+region          box block 0 50 0 50 0 50
+create_box      1 box
+create_atoms    1 box
+
+mass            1 63.546
+
+pair_style      eam
+pair_coeff      * * /data/shared/apps/lammps/2024-ocl-most/potentials/Cu_u3.eam
+
+neighbor        2.0 bin
+neigh_modify    every 1 delay 0 check yes
+
+velocity        all create 1000.0 12345 mom yes rot yes dist gaussian
+fix             1 all nvt temp 1000.0 300.0 0.1
+
+thermo          100
+thermo_style    custom step temp epair emol etotal press
+
+timestep        0.001
+run             1000
+
