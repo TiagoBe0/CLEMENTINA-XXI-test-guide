@@ -31,18 +31,9 @@ scp in.fcc_cu_anneal.txt run_gpu_cu.slurm usuario@ssh.clementinaxxi.org.ar:~/LAM
 
 ---
 
-## ✅ Paso 3: Cargar módulos de entorno
-
-Una vez dentro de Clementina:
-
-```bash
-module load intel/2023.2.1
-module load lammps/2024-Aug-opencl
-```
-
 ---
 
-## ✅ Paso 4: Revisar el input
+## ✅ Paso 3: Revisar el input
 
 Asegurate de que el archivo `in.fcc_cu_anneal.txt` contenga esta línea (ya apunta al potencial correcto):
 
@@ -52,7 +43,7 @@ pair_coeff * * /data/shared/apps/lammps/2024-ocl-most/potentials/Cu_u3.eam
 
 ---
 
-## ✅ Paso 5: Enviar el trabajo a SLURM
+## ✅ Paso 4: Enviar el trabajo a SLURM
 
 ```bash
 sbatch run_gpu_cu.slurm
@@ -60,7 +51,7 @@ sbatch run_gpu_cu.slurm
 
 ---
 
-## ✅ Paso 6: Monitorear la simulación (opcional)
+## ✅ Paso 5: Monitorear la simulación (opcional)
 
 ```bash
 tail -f anneal_ni.out
@@ -68,7 +59,7 @@ tail -f anneal_ni.out
 
 ---
 
-## ✅ Paso 7: Descargar resultados a tu máquina local
+## ✅ Paso 6: Descargar resultados a tu máquina local
 
 ```bash
 scp -r usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC ~/Escritorio/
