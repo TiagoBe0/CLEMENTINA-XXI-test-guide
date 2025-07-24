@@ -8,7 +8,7 @@ ssh usuario@ssh.clementinaxxi.org.ar
 mkdir -p ~/LAMMPS_CU_FCC
 cd ~/LAMMPS_CU_FCC
 Desde tu máquina local:
-scp in.fcc_cu_anneal.txt run_gpu_cu.slurm sbergamin@jumpext.clementinaxxi.org.ar:~/LAMMPS_CU_FCC
+scp in.fcc_cu_anneal.txt run_gpu_cu.slurm usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC
 ✅ Paso 3: Cargar módulos de entorno
 Una vez conectado:
 module load intel/2023.2.1
