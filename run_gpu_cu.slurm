@@ -15,7 +15,7 @@ module load lammps/2024-Aug-opencl
 
 cd $SLURM_SUBMIT_DIR
 
-mpirun -np 1 /data/shared/apps/lammps/2024-ocl-most/build/lmp \
+mpirun -np 1 lmp \
   -sf gpu -pk gpu 1 neigh no \
   -in in.fcc_cu_anneal.txt
 
