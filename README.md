@@ -5,7 +5,7 @@ Esta guía explica cómo ejecutar una simulación simple de cobre FCC con LAMMPS
 ## ✅ Paso 0: Activar VPN(openvpn)
 
 ```
- sudo openfortivpn vpn.clementinaxxi.org.ar:1443   --username user   --password 'pass'   --trusted-cert 'cert'   --set-dns=1   --set-routes=1
+ sudo openfortivpn vpn.clementinaxxi.org.ar:PORT   --username user   --password 'pass'   --trusted-cert 'cert'   --set-dns=1   --set-routes=1
 
 ```
 
