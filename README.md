@@ -2,8 +2,14 @@
 
 Esta guía explica cómo ejecutar una simulación simple de cobre FCC con LAMMPS en la infraestructura de Clementina usando 1 nodo con 1 GPU y 24 CPUs.
 
----
+## ✅ Paso 0: Activar VPN(openvpn)
 
+```
+ sudo openfortivpn vpn.clementinaxxi.org.ar:1443   --username user   --password 'pass'   --trusted-cert 'cert'   --set-dns=1   --set-routes=1
+
+```
+
+---
 ## ✅ Paso 1: Conectarse a Clementina
 
 Desde tu terminal local con VPN activa:
