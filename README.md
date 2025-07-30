@@ -78,7 +78,7 @@ scp -r usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC ~/Escritorio/
 - [`in.fcc_cu_anneal.txt`](./in.fcc_cu_anneal.txt)
 - [`run_gpu_cu.slurm`](./run_gpu_cu.slurm)
 - 
-![Texto alternativo](./rendimiento.png)
+![Texto alternativo](./imagen.png)
 ![Texto alternativo](./time_sclae.png)
 ![Texto alternativo](./output.png)
 ---
