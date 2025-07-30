@@ -6,10 +6,9 @@ boundary        p p p
 atom_style      atomic
 
 lattice         fcc 3.615
-box block       0 80 0 80 0 80 units lattice
+region          box block 0 80 0 80 0 80 units lattice
 create_box      1 box
 create_atoms    1 box
-
 mass            1 63.546
 
 pair_style      eam
