@@ -78,8 +78,9 @@ scp -r usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC ~/Escritorio/
 - [`in.fcc_cu_anneal.txt`](./in.fcc_cu_anneal.txt)
 - [`run_gpu_cu.slurm`](./run_gpu_cu.slurm)
 - 
-![Texto alternativo](./pruebas_de_rendimiento.png)
-
+![Texto alternativo](./rendimiento.png)
+![Texto alternativo](./time_sclae.png)
+![Texto alternativo](./output.png)
 ---
 
 > 🧠 **Tip:** Si `Ave neighs/atom = 0`, revisá que estés usando `neigh no` en `run_gpu_cu.slurm` para evitar problemas con la construcción de vecinos en GPU.
