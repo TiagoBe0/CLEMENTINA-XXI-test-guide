@@ -80,6 +80,7 @@ scp -r usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC ~/Escritorio/
 - 
 ![Texto alternativo](./imagen.png)
 ![Texto alternativo](./time_sclae.png)
+
 ![Texto alternativo](./image(2).png)
 ---
 
