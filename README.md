@@ -80,7 +80,7 @@ scp -r usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC ~/Escritorio/
 - 
 ![Texto alternativo](./imagen.png)
 ![Texto alternativo](./time_sclae.png)
-![Texto alternativo](./output.png)
+![Texto alternativo](./output(2).png)
 ---
 
 > 🧠 **Tip:** Si `Ave neighs/atom = 0`, revisá que estés usando `neigh no` en `run_gpu_cu.slurm` para evitar problemas con la construcción de vecinos en GPU.
