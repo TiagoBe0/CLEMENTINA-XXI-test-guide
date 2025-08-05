@@ -1,4 +1,4 @@
-# 🧪 CLEMENTINA-XXI Test Guide: LAMMPS + GPU
+# 🧪CLEMENTINA-XXI Test Guide: LAMMPS + GPU (Linux)
 
 Esta guía explica cómo ejecutar una simulación simple de cobre FCC con LAMMPS en la infraestructura de Clementina usando 1 nodo con 1 GPU y 24 CPUs.
 
