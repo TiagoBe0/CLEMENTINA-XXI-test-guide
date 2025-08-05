@@ -85,3 +85,4 @@ scp -r usuario@ssh.clementinaxxi.org.ar:~/LAMMPS_CU_FCC ~/Escritorio/
 ---
 
 > 🧠 **Tip:** Si `Ave neighs/atom = 0`, revisá que estés usando `neigh no` en `run_gpu_cu.slurm` para evitar problemas con la construcción de vecinos en GPU.
+**mas info** https://docs.google.com/spreadsheets/d/1QWL9f52jjR3oZ3jcCEtqjG7rO-_UafvAlCMH_yVd7Ww/edit?gid=1791680952#gid=1791680952
